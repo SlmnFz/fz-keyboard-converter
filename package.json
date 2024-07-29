@@ -1,0 +1,24 @@
+{
+  "name": "fz-keyboard-converter",
+  "version": "1.0.0",
+  "description": "A package to convert keyboard inputs using character maps.",
+  "main": "lib/keyboardConverter.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "keyboard",
+    "converter",
+    "character",
+    "map",
+    "persian",
+    "english"
+  ],
+  "author": "SalmanFz",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlmnFz/fz-keyboard-converter"
+  }
+}
