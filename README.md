@@ -1,11 +1,17 @@
 # Fz Keyboard Converter
 
-A Node.js package for converting keyboard inputs between Persian and English character sets using predefined mappings. This package supports conversion in both directions: from Persian to English and from English to Persian.
+A Node.js package for converting keyboard inputs between Persian and English character sets.
+
+## Description
+
+`fz-keyboard-converter` is a JavaScript library designed to facilitate the conversion of keyboard inputs between Persian and English layouts. This package provides bidirectional mapping, allowing users to easily convert text between these two languages.
+
 
 ## Features
 
-- Convert characters from a standard keyboard layout to a custom script or language.
-- Bidirectional mapping, allowing conversion in both directions.
+- **Bidirectional Conversion:** Convert text from Persian to English and vice versa.
+- **Predefined Mappings:** Utilizes a comprehensive set of character mappings for accurate conversion.
+- **Easy Integration:** Simple to integrate into your Node.js projects.
 
 ## Installation
 
