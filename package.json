@@ -1,6 +1,6 @@
 {
   "name": "fz-keyboard-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to convert keyboard inputs using character maps.",
   "main": "lib/keyboardConverter.js",
   "scripts": {
