@@ -36,6 +36,12 @@ const convertedString = convertInput(inputString);
 
 // Output the converted string
 console.log(convertedString); // سلام
+
+// Default behavior (lowercase conversion)
+console.log(convertInput('اثممخ')); // Outputs: "hello"
+
+// Uppercase conversion
+console.log(convertInput('اثممخ', { upperCase: true })); // Outputs: "HELLO"
 ```
 
 **Note**: The mappings used are specific to Persian and English keyboard layouts. Non-mapped characters remain unchanged.
@@ -49,6 +55,8 @@ console.log(convertedString); // سلام
 - **Description**: Converts the input string based on predefined character mappings.
 - **Parameters**:
   - `input` (`string`): The input string to be converted.
+  - `options` (`object`, optional): Options for conversion.
+    - `upperCase` (`boolean` optional): if true, use uppercase mappings.
 - **Returns**: (`string`) The converted string with characters replaced based on the mappings.
 
 ## Character Mappings
